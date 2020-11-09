@@ -47,7 +47,7 @@ class codingQ {
         int word_count = 0;
 
         for (String k : key_set) 
-            word_count += temp_map.get(k);
+            word_count += hm.get(k);
         return word_count;
     }
 
